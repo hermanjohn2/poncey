@@ -20,6 +20,7 @@
 	},
 	"homepage": "https://github.com/hermanjohn2/poncey-ssg#readme",
 	"dependencies": {
-		"esm": "^3.2.25"
+		"esm": "^3.2.25",
+		"inquirer": "^7.3.3"
 	}
 }

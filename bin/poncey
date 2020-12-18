@@ -1,4 +1,6 @@
 #!/usr/bin/env node
 
+// esm packages permits writing import/export statements
 require = require('esm')(module /*, options*/);
+// Function that is triggered when "poncey" command is ran
 require('../src/cli').cli(process.argv);
