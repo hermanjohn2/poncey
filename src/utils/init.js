@@ -6,11 +6,8 @@ const init = projectName => {
 	console.log('Welcome to Poncey.');
 	console.log('');
 
-	prompts.intro().then(data => {
-		console.log(data);
-		console.log({ projectName });
-
-		createProject(projectName);
+	prompts.intro().then(({ project_type }) => {
+		createProject(projectName, project_type);
 	});
 };
 

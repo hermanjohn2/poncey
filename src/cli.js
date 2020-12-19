@@ -1,5 +1,4 @@
 import init from './utils/init';
-import prompts from './utils/prompts';
 
 export function cli(args) {
 	if (!args[2]) {
