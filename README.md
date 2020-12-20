@@ -18,7 +18,7 @@
 ## Installation
 
 ```
-npm -i @hermanjohn2/poncey
+npm install @hermanjohn2/poncey
 ```
 
 ## Usage
