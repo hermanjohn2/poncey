@@ -2,18 +2,18 @@
 
 <img src="https://lh3.googleusercontent.com/ET3aplOAqqvqpgNgZluQ71CnPN53CLnperwj3OLAaECEi6wWOJ5iYycT04oqg7Rf5_5oqedM7twHAu_VinAXlsgltV0hcZ3S7ybQT2AvBVX7UYJlXQqL1-vnMqsMDTUN12HadFlHjQ=s200-p-k" style="display: block;margin-left: auto;margin-right: auto;">
 
-<p style="text-align: center;">This package is a CLI that generates a static website. It allows both developers and users to generate a directory that contains the necessary files to quickly build out a static site that is custom their needs.</p>
+<img src="https://img.shields.io/npm/v/poncey" style="display: block;margin-left: auto;margin-right: auto;">
+
+<br>
+<p style="text-align: center;">This npm package is a CLI that generates a static website. It allows users to generate a directory that contains the starter files, with boilerplate, of a stating website. This fast and lightweight package is the perfect way to get a jump start on a new project.</p>
 
 ## Table of Contents
 
-1. Installation
-2. Usage
-3. License
-4. Contributing
-5. Tests
-6. Questions
-
-[![GitHub version](https://badge.fury.io/gh/hermanjohn2%2Fponcey.svg)](https://github.com/hermanjohn2/poncey)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Questions](#questions)
 
 ## Installation
 
