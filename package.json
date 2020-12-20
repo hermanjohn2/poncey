@@ -1,6 +1,6 @@
 {
-	"name": "@hermanjohn2/poncey-ssg",
-	"version": "1.0.0",
+	"name": "poncey",
+	"version": "1.0.1",
 	"description": "A static site generator.",
 	"main": "src/index.js",
 	"bin": {
@@ -9,12 +9,20 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"keywords": [
+		"poncey",
+		"poncey-cli",
+		"cli",
+		"static site generator",
+		"generator",
+		"ssg"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hermanjohn2/poncey-ssg.git"
 	},
 	"author": "John Herman",
-	"license": "ISC",
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/hermanjohn2/poncey-ssg/issues"
 	},

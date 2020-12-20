@@ -27,7 +27,7 @@ In your terminal, move to directory that you want your new project to live in.
 Run the following command to create your new project.
 
 ```
-poncey "yourProjectTitle"
+poncey your-project-title
 ```
 
 ## License
@@ -45,4 +45,4 @@ git clone git@github.com:hermanjohn2/poncey.git
 
 ## Questions
 
-Please send questions [here](hermanjohn2@gmail.com).
+Questions, concerns, ideas, feedback? Send them [here](https://github.com/hermanjohn2/poncey/issues).
