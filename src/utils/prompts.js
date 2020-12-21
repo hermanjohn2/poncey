@@ -6,7 +6,7 @@ export default {
 			name: 'project_type',
 			type: 'list',
 			message: 'What type of project are you building?',
-			choices: ['Blank Project (Recommended for Developers)', 'Business Website', 'Blog']
+			choices: ['React Web Application', 'Static Website']
 		});
 	}
 };

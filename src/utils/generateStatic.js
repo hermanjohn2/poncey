@@ -1,7 +1,7 @@
 import fs from 'fs';
 
-import htmlTemp from '../templates/blankProject/home';
-import cssTemp from '../templates/blankProject/style';
+import htmlTemp from '../templates/static-website/home';
+import cssTemp from '../templates/static-website/style';
 
 const jsText = '// ---------- Write your logic script here in JavaScript ---------- //';
 

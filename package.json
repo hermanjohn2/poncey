@@ -1,6 +1,6 @@
 {
 	"name": "poncey",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A static site generator.",
 	"main": "src/index.js",
 	"bin": {
@@ -19,14 +19,14 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hermanjohn2/poncey-ssg.git"
+		"url": "git+https://github.com/hermanjohn2/poncey.git"
 	},
 	"author": "John Herman",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/hermanjohn2/poncey-ssg/issues"
+		"url": "https://github.com/hermanjohn2/poncey/issues"
 	},
-	"homepage": "https://github.com/hermanjohn2/poncey-ssg#readme",
+	"homepage": "https://github.com/hermanjohn2/poncey#readme",
 	"dependencies": {
 		"esm": "^3.2.25",
 		"inquirer": "^7.3.3"

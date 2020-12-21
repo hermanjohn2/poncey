@@ -1,22 +1,16 @@
-import handleBlank from './handleBlank';
+import generateStaticSite from './generateStatic';
 
 const createProject = (projectTitle, introPromptData) => {
 	console.log(introPromptData);
 	switch (introPromptData) {
-		case 'Blank Project (Recommended for Developers)':
-			handleBlank(projectTitle);
-			break;
-		case 'Business Website':
+		case 'React Web Application':
 			console.log('');
 			console.log('Feature under construction. Please try our Blank Project option.');
 			console.log('');
 			process.exit();
 			break;
-		case 'Blog':
-			console.log('');
-			console.log('Feature under construction. Please try our Blank Project option.');
-			console.log('');
-			process.exit();
+		case 'Static Website':
+			generateStaticSite(projectTitle);
 			break;
 		default:
 			console.log('');
