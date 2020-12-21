@@ -2,11 +2,9 @@ import generateReactApp from './generateReact';
 import generateStaticSite from './generateStatic';
 
 const createProject = (projectTitle, introPromptData) => {
-	console.log(introPromptData);
 	switch (introPromptData) {
 		case 'React Web Application':
 			generateReactApp(projectTitle);
-			process.exit();
 			break;
 		case 'Static Website':
 			generateStaticSite(projectTitle);
