@@ -1,10 +1,7 @@
-# Poncey
+# Poncey ![npm](https://img.shields.io/npm/v/poncey)
 
 <img src="https://lh3.googleusercontent.com/ET3aplOAqqvqpgNgZluQ71CnPN53CLnperwj3OLAaECEi6wWOJ5iYycT04oqg7Rf5_5oqedM7twHAu_VinAXlsgltV0hcZ3S7ybQT2AvBVX7UYJlXQqL1-vnMqsMDTUN12HadFlHjQ=s200-p-k" style="display: block;margin-left: auto;margin-right: auto;">
 
-<img src="https://img.shields.io/npm/v/poncey" style="display: block;margin-left: auto;margin-right: auto;">
-
-<br>
 <p style="text-align: center;">This npm package is a CLI that generates a static website. It allows users to generate a directory that contains the starter files, with boilerplate, of a static website. This fast and lightweight package is the perfect way to get a jump start on a new project.</p>
 
 ## Table of Contents
