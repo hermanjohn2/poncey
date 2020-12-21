@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/npm/v/poncey" style="display: block;margin-left: auto;margin-right: auto;">
 
 <br>
-<p style="text-align: center;">This npm package is a CLI that generates a static website. It allows users to generate a directory that contains the starter files, with boilerplate, of a stating website. This fast and lightweight package is the perfect way to get a jump start on a new project.</p>
+<p style="text-align: center;">This npm package is a CLI that generates a static website. It allows users to generate a directory that contains the starter files, with boilerplate, of a static website. This fast and lightweight package is the perfect way to get a jump start on a new project.</p>
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@
 ## Installation
 
 ```
-npm install @hermanjohn2/poncey
+npm install poncey
 ```
 
 ## Usage
@@ -29,6 +29,8 @@ Run the following command to create your new project.
 ```
 poncey your-project-title
 ```
+
+Make a selection in the CLI and then follow the instructions to begin customizing your new project.
 
 ## License
 
