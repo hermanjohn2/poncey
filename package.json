@@ -1,6 +1,6 @@
 {
 	"name": "poncey",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "A static site generator.",
 	"main": "src/index.js",
 	"bin": {
@@ -29,6 +29,7 @@
 	"homepage": "https://github.com/hermanjohn2/poncey#readme",
 	"dependencies": {
 		"esm": "^3.2.25",
-		"inquirer": "^7.3.3"
+		"inquirer": "^7.3.3",
+		"kleur": "^4.1.3"
 	}
 }

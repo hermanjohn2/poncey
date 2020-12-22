@@ -1,8 +1,8 @@
-# Poncey ![npm](https://img.shields.io/npm/v/poncey)
+<img src="https://lh3.googleusercontent.com/ET3aplOAqqvqpgNgZluQ71CnPN53CLnperwj3OLAaECEi6wWOJ5iYycT04oqg7Rf5_5oqedM7twHAu_VinAXlsgltV0hcZ3S7ybQT2AvBVX7UYJlXQqL1-vnMqsMDTUN12HadFlHjQ=s200-p-k" alt="Poncey logo." style="display: block;margin-left: auto;margin-right: auto;">
 
-<img src="https://lh3.googleusercontent.com/ET3aplOAqqvqpgNgZluQ71CnPN53CLnperwj3OLAaECEi6wWOJ5iYycT04oqg7Rf5_5oqedM7twHAu_VinAXlsgltV0hcZ3S7ybQT2AvBVX7UYJlXQqL1-vnMqsMDTUN12HadFlHjQ=s200-p-k" style="display: block;margin-left: auto;margin-right: auto;">
-
-<p style="text-align: center;">This npm package is a CLI that generates a static website. It allows users to generate a directory that contains the starter files, with boilerplate, of a static website. This fast and lightweight package is the perfect way to get a jump start on a new project.</p>
+<img src="https://img.shields.io/npm/v/poncey" alt="npm version image" style="display: block;margin-left: auto;margin-right: auto;">
+<br>
+<p style="text-align: center;">Poncey is a CLI that generates both React applications and static websites. This command line tool generates the folders and files needed to immediately begin developing your project.</p>
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ Run the following command to create your new project.
 poncey your-project-title
 ```
 
-Make a selection in the CLI and then follow the instructions to begin customizing your new project.
+Make a selection in the CLI and follow the instructions written in the CLI.
 
 ## License
 
@@ -44,4 +44,4 @@ git clone git@github.com:hermanjohn2/poncey.git
 
 ## Questions
 
-Questions, concerns, ideas, feedback? Send them [here](https://github.com/hermanjohn2/poncey/issues).
+Ideas, Questions, Concerns, Feedback? Send them [here](https://github.com/hermanjohn2/poncey/issues).

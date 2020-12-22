@@ -1,13 +1,25 @@
-import createProject from './createProject';
-import prompts from './prompts';
+import prompts from './cli/prompts';
+import message from './cli/messaging';
 
-const init = projectName => {
-	console.log('');
-	console.log('Welcome to Poncey.');
-	console.log('');
+import generateReactApp from './generateReact';
+import generateStaticSite from './generateStatic';
+
+const init = projectTitle => {
+	message.intro();
 
 	prompts.intro().then(({ project_type }) => {
-		createProject(projectName, project_type);
+		switch (project_type) {
+			case 'React Web Application':
+				generateReactApp(projectTitle);
+				break;
+			case 'Static Website':
+				generateStaticSite(projectTitle);
+				break;
+			default:
+				message.error();
+				process.exit();
+				break;
+		}
 	});
 };
 

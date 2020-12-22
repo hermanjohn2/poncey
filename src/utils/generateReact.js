@@ -1,4 +1,5 @@
 import fs from 'fs';
+import message from './cli/messaging';
 
 // Root Temps
 import gitIgnoreTemp from '../templates/react-web-app/gitIgnore';
@@ -64,26 +65,10 @@ const generateReact = appTitle => {
 		fs.writeFileSync(`./${appTitle}/src/pages/Deployment/index.js`, deployIndexTemp());
 		fs.writeFileSync(`./${appTitle}/src/pages/Deployment/style.css`, deployStyleTemp());
 
-		// Console Messages
-		console.log('');
-		console.log(`${appTitle} successfully created!`);
-		console.log('');
-		console.log('Next Steps:');
-		console.log('');
-		console.log('1. In your terminal, run the following commands:');
-		console.log('');
-		console.log(`cd ${appTitle}`);
-		console.log('npm install');
-		console.log('npm start');
-		console.log('');
-		console.log(`2. Visit https://localhost:3000 in your browser`);
-		console.log('3. Make your React edits inside of src/App.js');
-		console.log('');
+		message.generatedReact(appTitle);
 		process.exit();
 	} catch (error) {
-		console.log('');
-		console.log('Something went wrong. Please try again.', error);
-		console.log('');
+		message.error();
 	}
 };
 
