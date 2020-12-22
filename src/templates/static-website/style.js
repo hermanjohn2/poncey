@@ -1,5 +1,3 @@
-// Poncey Logo Colors: #31c6e8  #e0d0a2 #2e2e2e
-
 const renderCSS = () => {
 	return `body {
     margin: 0px;

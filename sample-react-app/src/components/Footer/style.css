@@ -1,0 +1,15 @@
+.poncey-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top: 10px;
+	height: 2.5rem;
+	background-color: #ebebeb;
+}
+
+.footer-text {
+	margin: 10px;
+	text-align: center;
+	color: #4d4d4d;
+	font-size: 1rem;
+}
