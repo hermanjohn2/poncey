@@ -1,7 +1,7 @@
-import React from 'react';
+export default appTitle => {
+	return `import React from 'react';
 
 import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
 
 import './style.css';
 
@@ -16,15 +16,15 @@ const Home = () => {
 				/>
 				<p>
 					Thank you for using Poncey. Go into{' '}
-					<strong>yourApp/src/pages/Home/index.js</strong> to make changes to this view.
+					<strong>${appTitle}/src/pages/Home/index.js</strong> to make changes to this view.
 				</p>
 				<p>
 					You can also add a new view by creating a new folder inside of{' '}
-					<strong>yourApp/pages</strong>.
+					<strong>${appTitle}/pages</strong>. Follow our examples of Home and Deployment.
 				</p>
 				<p>
-					Go into <strong>yourApp/src/components</strong> to add components or make edits
-					to the Navbar and Footer components.
+					Go into <strong>${appTitle}/src/components</strong> to add components. Follow our
+					Navbar example.
 				</p>
 				<p>
 					Check out{' '}
@@ -37,9 +37,11 @@ const Home = () => {
 					to learn more about React and how to build a React application.
 				</p>
 			</main>
-			<Footer />
 		</div>
 	);
 };
 
 export default Home;
+
+    `;
+};

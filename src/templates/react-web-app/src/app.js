@@ -1,19 +1,19 @@
-export default appTitle => {
-	return `import './App.css';
-
+export default () => {
+	return `import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+    
+import Home from './pages/Home';
+import Deployment from './pages/Deployment';
+    
 const App = () => {
     return (
-        <div>
-            <header>
-                <h1>${appTitle}</h1>
-                <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                    React Docs
-                </a>
-            </header>
-        </div>
+        <Router>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/deployment" component={Deployment} />
+        </Router>
     );
 };
     
-export default App;
+export default App;  
     `;
 };

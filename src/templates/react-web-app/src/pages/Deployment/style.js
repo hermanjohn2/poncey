@@ -1,3 +1,5 @@
+export default () => {
+	return `/* Development Page Style Sheet */
 .deployment-content {
 	margin: 0 5% 0 5%;
 	padding-bottom: 2.5rem;
@@ -13,3 +15,5 @@
 	padding: 5px;
 	width: 50%;
 }
+    `;
+};
