@@ -1,6 +1,6 @@
 {
 	"name": "poncey",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "A static site generator.",
 	"main": "src/index.js",
 	"bin": {

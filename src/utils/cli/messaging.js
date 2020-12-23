@@ -2,29 +2,17 @@ import kleur from 'kleur';
 
 export default {
 	intro: () => {
+		console.log('');
+		console.log(kleur.blue('--------------------------------------------------------'));
+		console.log('');
 		console.log(
-			kleur.blue(`                                                                                                                  
-ppppp   ppppppppp      ooooooooooo   nnnn  nnnnnnnn        cccccccccccccccc    eeeeeeeeeeee  yyyyyyy           yyyyyyy
-p::::ppp:::::::::p   oo:::::::::::oo n:::nn::::::::nn    cc:::::::::::::::c  ee::::::::::::ee y:::::y         y:::::y 
-p:::::::::::::::::p o:::::::::::::::on::::::::::::::nn  c:::::::::::::::::c e::::::eeeee:::::eey:::::y       y:::::y  
-pp::::::ppppp::::::po:::::ooooo:::::onn:::::::::::::::nc:::::::cccccc:::::ce::::::e     e:::::e y:::::y     y:::::y   
- p:::::p     p:::::po::::o     o::::o  n:::::nnnn:::::nc::::::c     ccccccce:::::::eeeee::::::e  y:::::y   y:::::y    
- p:::::p     p:::::po::::o     o::::o  n::::n    n::::nc:::::c             e:::::::::::::::::e    y:::::y y:::::y     
- p:::::p     p:::::po::::o     o::::o  n::::n    n::::nc:::::c             e::::::eeeeeeeeeee      y:::::y:::::y      
- p:::::p    p::::::po::::o     o::::o  n::::n    n::::nc::::::c     ccccccce:::::::e                y:::::::::y       
- p:::::ppppp:::::::po:::::ooooo:::::o  n::::n    n::::nc:::::::cccccc:::::ce::::::::e                y:::::::y        
- p::::::::::::::::p o:::::::::::::::o  n::::n    n::::n c:::::::::::::::::c e::::::::eeeeeeee         y:::::y         
- p::::::::::::::pp   oo:::::::::::oo   n::::n    n::::n  cc:::::::::::::::c  ee:::::::::::::e        y:::::y          
- p::::::pppppppp       ooooooooooo     nnnnnn    nnnnnn    cccccccccccccccc    eeeeeeeeeeeeee       y:::::y           
- p:::::p                                                                                           y:::::y            
- p:::::p                                                                                          y:::::y             
-p:::::::p                                                                                        y:::::y              
-p:::::::p                                                                                       y:::::y               
-p:::::::p                                                                                      yyyyyyy                
-ppppppppp                                                                                                             
-                                                                                                                      
-`)
+			`          { ${kleur.red(`P`)} } { ${'0'} } { ${kleur.blue(`N`)} } { ${kleur.red(
+				'C'
+			)} } { E } { ${kleur.blue('Y')} }`
 		);
+		console.log('');
+		console.log(kleur.blue('--------------------------------------------------------'));
+		console.log('');
 	},
 	error: () => {
 		console.log('');

@@ -14,25 +14,15 @@
 
 ## Installation
 
-#### Global Installation
-
 ```
 npm install -g poncey
 ```
 
-This installation method will allow you to use the `poncey` command anywhere on your machine
-
-#### Executable
-
-```
-npx poncey your-project-title
-```
-
-This will execute the `poncey` command with your entered project title
+This installation method will allow you to use the `poncey` command anywhere on your machine. See below for usage as an [executable](###executable).
 
 ## Usage
 
-After completing the installation process:
+### After installing globally:
 
 1. cd into your desired directory
 2. Execute the following command:
@@ -41,7 +31,18 @@ After completing the installation process:
 poncey your-project-title
 ```
 
-3. Make a project selection in the CLI and follow the instructions written in the CLI.
+3. Make a project selection in the CLI and follow the instructions printed in the CLI.
+
+### Executable:
+
+1. cd into your desired directory
+2. Execute the following command:
+
+```
+npx poncey your-project-title
+```
+
+3. Make a project selection in the CLI and follow the instructions printed in the CLI.
 
 ## License
 
