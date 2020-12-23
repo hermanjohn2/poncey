@@ -1,5 +1,6 @@
 import indexTemp from './home';
 import styleTemp from './style';
+import markdownTemp from './markdown';
 
 const staticSite = {
 	directories: [
@@ -32,7 +33,7 @@ const staticSite = {
 		{
 			file: 'README.md',
 			path: appTitle => `./${appTitle}/README.md`,
-			temp: appTitle => `# ${appTitle}`
+			temp: appTitle => markdownTemp(appTitle)
 		}
 	]
 };
