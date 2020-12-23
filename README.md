@@ -22,6 +22,10 @@ This installation method will allow you to use the `poncey` command anywhere on 
 
 ## Usage
 
+### After global installation:
+
+![gif of poncey being downloaded and executed](https://lh3.googleusercontent.com/h1W19eqwVXyYzUnnWBkYWoJMsz2Gv87WwkcxAoAqxy1_iV36zw2su8q1oRXscbYIPQ9g1teahLgZ-ZDhe_aF152uuCGwD6xZa5zSyK1si4z6SGDHwCk0HhJn2BkE3atxVInntScUGQ=w2400)
+
 ### After installing globally:
 
 1. cd into your desired directory
@@ -34,6 +38,8 @@ poncey your-project-title
 3. Make a project selection in the CLI and follow the instructions printed in the CLI.
 
 ### Executable:
+
+![gif of poncey being executed using npx](https://lh3.googleusercontent.com/6vFV7Y0b7EESGQUe0fnDLCAzdgr2QqpyT0G35d3QpVZ80i16CBBHI9QZ6dwSh6xMMFZywu1Z5In7I6WVjNfQVDqleyC-FgKLK9zOvyFgjyQLYx2yoP6Jim4tjCM1xUMqHcxjGD_xxw=w2400)
 
 1. cd into your desired directory
 2. Execute the following command:
