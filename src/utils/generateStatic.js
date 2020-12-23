@@ -1,18 +1,18 @@
 import fs from 'fs';
 import message from './cli/messaging';
+import staticSite from '../templates/static-website/index';
 
-import htmlTemp from '../templates/static-website/home';
-import cssTemp from '../templates/static-website/style';
-
-const jsText = '// ---------- Write your logic script here in JavaScript ---------- //';
-
-const handleBlank = projectTitle => {
+const generateStatic = projectTitle => {
 	try {
-		fs.mkdirSync(`./${projectTitle}`);
-		fs.mkdirSync(`./${projectTitle}/assets`);
-		fs.writeFileSync(`./${projectTitle}/index.html`, htmlTemp(projectTitle));
-		fs.writeFileSync(`./${projectTitle}/assets/style.css`, cssTemp());
-		fs.writeFileSync(`./${projectTitle}/assets/script.js`, jsText);
+		// Making directories
+		staticSite.directories.map(dir => {
+			fs.mkdirSync(dir.path(projectTitle));
+		});
+
+		// Writing files
+		staticSite.files.map(file => {
+			fs.writeFileSync(file.path(projectTitle), file.temp(projectTitle));
+		});
 
 		message.generatedStatic(projectTitle);
 		process.exit();
@@ -22,4 +22,4 @@ const handleBlank = projectTitle => {
 	}
 };
 
-export default handleBlank;
+export default generateStatic;

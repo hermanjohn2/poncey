@@ -1,8 +1,8 @@
 import prompts from './cli/prompts';
 import message from './cli/messaging';
 
-import generateReactApp from './generateReact';
-import generateStaticSite from './generateStatic';
+import generateReact from './generateReact';
+import generateStatic from './generateStatic';
 
 const init = projectTitle => {
 	message.intro();
@@ -10,10 +10,10 @@ const init = projectTitle => {
 	prompts.intro().then(({ project_type }) => {
 		switch (project_type) {
 			case 'React Web Application':
-				generateReactApp(projectTitle);
+				generateReact(projectTitle);
 				break;
 			case 'Static Website':
-				generateStaticSite(projectTitle);
+				generateStatic(projectTitle);
 				break;
 			default:
 				message.error();

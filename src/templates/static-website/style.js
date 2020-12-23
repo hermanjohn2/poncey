@@ -1,5 +1,6 @@
-const renderCSS = () => {
-	return `body {
+const renderCSS = appTitle => {
+	return `/* ${appTitle} Style Sheet */
+body {
     margin: 0px;
     background-color: #adadad;
     font-family: monospace;
