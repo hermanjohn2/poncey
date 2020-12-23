@@ -14,20 +14,34 @@
 
 ## Installation
 
+#### Global Installation
+
 ```
-npm install poncey
+npm install -g poncey
 ```
+
+This installation method will allow you to use the `poncey` command anywhere on your machine
+
+#### Executable
+
+```
+npx poncey your-project-title
+```
+
+This will execute the `poncey` command with your entered project title
 
 ## Usage
 
-In your terminal, move to directory that you want your new project to live in.
-Run the following command to create your new project.
+After completing the installation process:
+
+1. cd into your desired directory
+2. Execute the following command:
 
 ```
 poncey your-project-title
 ```
 
-Make a selection in the CLI and follow the instructions written in the CLI.
+3. Make a project selection in the CLI and follow the instructions written in the CLI.
 
 ## License
 
