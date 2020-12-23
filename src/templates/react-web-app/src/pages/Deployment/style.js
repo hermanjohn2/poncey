@@ -1,5 +1,5 @@
-export default () => {
-	return `/* Development Page Style Sheet */
+export default appTitle => {
+	return `/* Development Page Style Sheet for ${appTitle} */
 .deployment-content {
 	margin: 0 5% 0 5%;
 	padding-bottom: 2.5rem;

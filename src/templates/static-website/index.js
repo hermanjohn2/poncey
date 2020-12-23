@@ -20,7 +20,7 @@ const staticSite = {
 		},
 		{
 			file: 'style.css',
-			path: appTitle => `$./{appTitle}/assets/style.css`,
+			path: appTitle => `./${appTitle}/assets/style.css`,
 			temp: appTitle => styleTemp(appTitle)
 		},
 		{

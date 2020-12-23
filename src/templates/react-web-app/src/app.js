@@ -1,10 +1,11 @@
-export default () => {
+export default appTitle => {
 	return `import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
     
 import Home from './pages/Home';
 import Deployment from './pages/Deployment';
-    
+
+// React Router for ${appTitle}    
 const App = () => {
     return (
         <Router>

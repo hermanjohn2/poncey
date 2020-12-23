@@ -1,5 +1,6 @@
-export default () => {
-	return `.poncey-nav {
+export default appTitle => {
+	return `/* ${appTitle} Navbar Style Sheet */
+.poncey-nav {
     background-color: #e0d0a2;
     height: 3rem;
     width: 100%;

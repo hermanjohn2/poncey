@@ -1,10 +1,11 @@
-export default () => {
+export default appTitle => {
 	return `import React from 'react';
 
 import Navbar from '../../components/Navbar';
 
 import './style.css';
 
+// Deployment page for ${appTitle}
 const Deployment = () => {
 	return (
 		<div className="deployment-wrapper">

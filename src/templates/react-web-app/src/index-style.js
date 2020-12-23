@@ -1,5 +1,5 @@
-export default () => {
-	return `/* index.js Style Sheet */
+export default appTitle => {
+	return `/* ${appTitle} Root Style Sheet */
 body {
     margin: 0;
     font-family: monospace;

@@ -1,5 +1,5 @@
-export default () => {
-	return `/* Home Page Style Sheet */
+export default appTitle => {
+	return `/* ${appTitle} Home Page Style Sheet */
 .Home {
 	text-align: center;
 	margin: 5%;
