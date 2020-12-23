@@ -1,17 +1,17 @@
-const renderHTML = projectTitle => {
+const renderHTML = appTitle => {
 	return `<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/style.css" />
-        <title>${projectTitle}</title>
+        <title>${appTitle}</title>
     </head>
     <body>
         <!-- Navbar Content -->
         <nav class="poncey-nav">
             <div class="nav-title">
-                <a href="./index.html">${projectTitle}</a>
+                <a href="./index.html">${appTitle}</a>
             </div>
             <div class="nav-links">
                 <!-- Add Navbar links here -->

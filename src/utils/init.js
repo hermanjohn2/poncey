@@ -4,16 +4,16 @@ import message from './cli/messaging';
 import generateReact from './generateReact';
 import generateStatic from './generateStatic';
 
-const init = projectTitle => {
+const init = appTitle => {
 	message.intro();
 
 	prompts.intro().then(({ project_type }) => {
 		switch (project_type) {
 			case 'React Web Application':
-				generateReact(projectTitle);
+				generateReact(appTitle);
 				break;
 			case 'Static Website':
-				generateStatic(projectTitle);
+				generateStatic(appTitle);
 				break;
 			default:
 				message.error();

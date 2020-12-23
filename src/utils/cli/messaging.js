@@ -50,5 +50,18 @@ export default {
 		console.log('');
 		console.log(kleur.magenta('Do not forget the most important part... Have fun!'));
 		console.log('');
+	},
+	projectExists: appTitle => {
+		console.log('');
+		console.log(kleur.red(`${appTitle} already exists. Please choose another name for your project.`));
+		console.log('');
+	},
+	enterTitle: () => {
+		console.log('');
+		console.log(
+			kleur.red(`Please enter a name for your project after the ${kleur.bold('poncey')} command.`)
+		);
+		console.log('');
+		process.exit();
 	}
 };

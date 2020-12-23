@@ -2,19 +2,19 @@ import fs from 'fs';
 import message from './cli/messaging';
 import staticSite from '../templates/static-website/index';
 
-const generateStatic = projectTitle => {
+const generateStatic = appTitle => {
 	try {
 		// Making directories
 		staticSite.directories.map(dir => {
-			fs.mkdirSync(dir.path(projectTitle));
+			fs.mkdirSync(dir.path(appTitle));
 		});
 
 		// Writing files
 		staticSite.files.map(file => {
-			fs.writeFileSync(file.path(projectTitle), file.temp(projectTitle));
+			fs.writeFileSync(file.path(appTitle), file.temp(appTitle));
 		});
 
-		message.generatedStatic(projectTitle);
+		message.generatedStatic(appTitle);
 		process.exit();
 	} catch (error) {
 		message.error();
