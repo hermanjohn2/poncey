@@ -1,6 +1,6 @@
 {
 	"name": "poncey",
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"description": "A React web app and static site generator.",
 	"main": "src/index.js",
 	"bin": {
